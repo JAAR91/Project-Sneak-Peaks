@@ -1,6 +1,6 @@
 header{
   background-color:white;
-  
+  margin-bottom: 4px;
 }
 .navigation {
   display: flex;
@@ -36,7 +36,7 @@ header{
     border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
   }
   .navigation li:last-of-type a {
-    border-bottom: none;
+    border-bottom:rgba(255, 255, 255,0.3);
   }
 }
 #menul{
@@ -51,9 +51,7 @@ flex-flow: row;
 justify-content: left;
 list-style: none;
 }
-body{
-  background-color: teal;
-}
+
 #menulogo{
   max-height: 25px; 
 }
@@ -68,10 +66,6 @@ body{
   margin-left: auto;
   margin-right: auto;
   align-items: center;
-}
-body{
-  text-align: center;
-
 }
 #frontimage{
   display: flex;
@@ -88,4 +82,39 @@ body{
   margin-left: auto;
   margin-right: auto;
   
+}
+#contentbody1{
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+#suscribe{
+  text-align: center;
+
+}
+#box1{
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.flex-container {
+  display: flex;
+  background: url("https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-945.png");
+  background-size: cover;
+  flex-flow: row wrap;
+  
+  
+  
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.flex-item {
+  padding: 5px;
+  width: 220px;
+  margin-top: 180px;
+  height: 230px;
+  text-align: :left;
 }
