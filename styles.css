@@ -61,16 +61,31 @@ body{
   max-height: 25px;
 }
 #socialmediabuttons{
-display: flex;
-flex-flow: row;
-justify-content: left;
-list-style: none;
-margin-left: auto;
-margin-right: auto;
-background-color: thistle;
-
+  display: flex;
+  flex-flow: row;
+  justify-content: left;
+  list-style: none;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
 }
 body{
-text-align: center;
+  text-align: center;
 
+}
+#frontimage{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  max-width: 850px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+#Tittle{
+  
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  
 }
