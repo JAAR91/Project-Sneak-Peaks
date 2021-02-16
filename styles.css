@@ -1,7 +1,8 @@
-header{
+header {
   background-color:white;
   margin-bottom: 4px;
 }
+
 .navigation {
   display: flex;
   flex-flow: row wrap;
@@ -9,8 +10,8 @@ header{
   
   list-style: none;
   margin: 0; 
-  
 }
+
 .navigation a {
   text-decoration: none;
   display: block;
@@ -39,26 +40,30 @@ header{
     border-bottom:rgba(255, 255, 255,0.3);
   }
 }
-#menul{
+
+#menul {
   display: flex;
   flex-flow: row;
   justify-content: left;
   list-style: none;
 }
-#menur{
+
+#menur {
 display: flex;
 flex-flow: row;
 justify-content: left;
 list-style: none;
 }
 
-#menulogo{
+#menulogo {
   max-height: 25px; 
 }
-#searchlogo{
+
+#searchlogo {
   max-height: 25px;
 }
-#socialmediabuttons{
+
+#socialmediabuttons {
   display: flex;
   flex-flow: row;
   justify-content: left;
@@ -67,7 +72,8 @@ list-style: none;
   margin-right: auto;
   align-items: center;
 }
-#frontimage{
+
+#frontimage {
   display: flex;
   flex-direction: column;
   justify-content: left;
@@ -76,34 +82,37 @@ list-style: none;
   margin-right: auto;
   text-align: left;
 }
-#Tittle{
+
+#Tittle {
   
   max-width: 700px;
   margin-left: auto;
   margin-right: auto;
   
 }
-#contentbody1{
+
+#contentbody1 {
   max-width: 700px;
   margin-left: auto;
   margin-right: auto;
   text-align: left;
 }
-#suscribe{
-  text-align: center;
 
+#suscribe {
+  text-align: center;
 }
-#box1{
+
+#box1 {
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
 }
+
 .flex-container {
   display: flex;
   background: url("https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-945.png");
   background-size: cover;
   flex-flow: row wrap;
-  
   margin-left: -50px;
   list-style: none;
 }
@@ -115,4 +124,20 @@ list-style: none;
   height:180px;
   text-align:left;
   font-size: 9;
+}
+
+header {
+  max-height: 50px;
+  margin-top: 0px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 1px;
+  border-style: solid;
+  border-color: grey;
+  text-align:center;
+}
+
+#articlename {
+  font-size: 20;
 }
