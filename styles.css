@@ -1,192 +1,192 @@
 .navigation {
-  background-color: white;
-  display: flex;
-  flex-flow: row;
-  justify-content: space-around;
-  list-style: none;
-  margin: 0; 
-  padding: 0px;
-  height: 37px;
-  width: 100%;
-  border-bottom: 1px solid grey;
-  position: fixed;
+  background-color:white;
+  display:flex;
+  flex-flow:row;
+  justify-content:space-around;
+  list-style:none;
+  margin:0px; 
+  padding:0px;
+  height:37px;
+  width:100%;
+  border-bottom:1px solid grey;
+  position:fixed;
   top:0;
 }
 
 #menul {
-  display: flex;
-  flex-flow: row;
-  justify-content: left;
-  list-style: none;
-  margin:0;
-  padding: 0;
-  height: 37px;
-  width: 250px;
-  font-weight: bold;
+  display:flex;
+  flex-flow:row;
+  justify-content:left;
+  list-style:none;
+  margin:0px;
+  padding:0px;
+  height:37px;
+  width:250px;
+  font-weight:bold;
 }
 
 #menur {
-  display: flex;
-  flex-flow: row;
+  display:flex;
+  flex-flow:row;
   justify-content:right;
-  list-style: none;
-  height: 37px;
-  margin: 0px;
-  padding: 0px;
-  width: 170px;
+  list-style:none;
+  height:37px;
+  margin:0px;
+  padding:0px;
+  width:170px;
 }
 
 .buttons {
-  margin-top: 5px;
-  background-color: rgb(110, 137, 168);
-  color: white;
-  font-weight: bold;
-  margin: 0px;
-  padding: 0px;
-  border: 0px;
-  border-radius: 3px;
-  padding-left: 10px;
-  padding-right: 10px;
-  width: auto;
-  height: 30px;
-  font-size: 10px;
+  margin-top:5px;
+  background-color:rgb(110, 137, 168);
+  color:white;
+  font-weight:bold;
+  margin:0px;
+  padding:0px;
+  border:0px;
+  border-radius:3px;
+  padding-left:10px;
+  padding-right:10px;
+  width:auto;
+  height:30px;
+  font-size:10px;
 }
 
 .buttons:hover {
-  background-color: rgb(81, 114, 151);
-  border: 1px solid rgb(50, 72, 97);
+  background-color:rgb(81, 114, 151);
+  border:1px solid rgb(50, 72, 97);
 }
 
 .navbarlogos{
-  width: 12px;
-  height: 12px;
-  padding: 11px;
+  width:12px;
+  height:12px;
+  padding:11px;
 }
 
 .navbarlogos:hover {
-  background-color: rgb(207, 207, 207);
+  background-color:rgb(207, 207, 207);
 }
 
 .sociallogo {
-  margin: 10px;
-  margin-top: 20px;
+  margin:10px;
+  margin-top:20px;
   padding:7px;
-  border: 0px;
-  width: 20px;
-  height: 20px;
-  size: 45px;
-  border-radius: 50%;
-  background-color: rgb(177, 177, 177);
+  border:0px;
+  width:20px;
+  height:20px;
+  size:45px;
+  border-radius:50%;
+  background-color:rgb(177, 177, 177);
 }
 
 .sociallogo:hover {
-  background-color: white;
+  background-color:white;
   
 }
 
 #pagelogo {
-  height: 28px;
-  margin-top: 5px;
-  justify-content: center;
+  height:28px;
+  margin-top:5px;
+  justify-content:center;
 }
 
 .socialmediabuttons {
-  display: flex;
-  flex-flow: row;
+  display:flex;
+  flex-flow:row;
   justify-content:space-evenly;
-  list-style: none;
-  padding: 0px;
-  margin: 0px;
-  height: 75px;
-  width: 350px;
+  list-style:none;
+  padding:0px;
+  margin:0px;
+  height:75px;
+  width:350px;
 }
 
 .socialitems {
-  align-items: center;
-  justify-content: center;
-  margin: 10px;
-  padding: 10px;
-  size: 30px;
+  align-items:center;
+  justify-content:center;
+  margin:10px;
+  padding:10px;
+  size:30px;
 }
 
 .item {
-  margin-top: 5px;
-  justify-content: center;
-  margin: auto;
+  margin-top:5px;
+  justify-content:center;
+  margin:auto;
 }
 
 .images {
-  display: flex;
-  flex-direction: column;
-  justify-content: left;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: left;
+  display:flex;
+  flex-direction:column;
+  justify-content:left;
+  max-width:1200px;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:left;
 }
 
 #Tittle {
-  margin-top: 50px;
-  max-width: 560px;
-  margin-left: auto;
-  margin-right: auto;
-  font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
-  font-style: italic;
-  font-size: 20px;
-  border-bottom: 1px solid grey;
+  margin-top:50px;
+  max-width:560px;
+  margin-left:auto;
+  margin-right:auto;
+  font-family:nyt-cheltenham,georgia,'times new roman',times,serif;
+  font-style:italic;
+  font-size:20px;
+  border-bottom:1px solid grey;
 }
 
 .content {
-  max-width: 560px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: left;
-  font-size: 20px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  max-width:560px;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:left;
+  font-size:20px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 #suscribe {
-  text-align: center;
+  text-align:center;
 }
 
 #box1 {
-  max-width: 1000px;
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
+  max-width:1000px;
+  height:auto;
+  margin-left:auto;
+  margin-right:auto;
   
 }
 
 .grid {
-  background: url("https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-945.png");
-  background-size: cover;
-  display: grid;
-  list-style: none;
-  grid-template-columns: 250px 250px 250px 250px;
-  grid-template-rows: 120px 130px 170px 140px;
-  grid-gap: 10px;
-  transition: all 1s;
-  margin: 0px;
-  padding: 0px;
-  font-size: 12px;
+  background:url("https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-945.png");
+  background-size:cover;
+  display:grid;
+  list-style:none;
+  grid-template-columns:250px 250px 250px 250px;
+  grid-template-rows:120px 130px 170px 140px;
+  grid-gap:10px;
+  transition:all 1s;
+  margin:0px;
+  padding:0px;
+  font-size:12px;
 }
 
 #articlename {
-  text-decoration: none;
-  margin: 0;
+  text-decoration:none;
+  margin:0;
   color:black;
-  font-size: 30px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-style: bold;
-  vertical-align: middle;
+  font-size:30px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style:bold;
+  vertical-align:middle;
 }
 
 #menubarcontent {
-  text-decoration: none;
-  color: black;
+  text-decoration:none;
+  color:black;
   font-size:14px;
-  margin-top: 40px;
-  font-weight: bold;
+  margin-top:40px;
+  font-weight:bold;
 }
 
 #menubarcontent:hover {
@@ -194,39 +194,39 @@
 }
 
 .greyformat {
-  color: grey;  
-  font-size: 12px;
+  color:grey;  
+  font-size:12px;
 }
 
 .recomended {
   
-  min-height: 200px;
-  max-width: 1100px;
-  border: 1px solid red;
+  min-height:200px;
+  max-width:1100px;
+  border:1px solid red;
 }
 
 .editorschoise {  
-  display: flex;
-  flex-flow: column wrap;
+  display:flex;
+  flex-flow:column wrap;
   justify-content:space-around;
-  list-style: none;
-  width: 270px;
-  height: 350px;
-  margin: 0px;
-  padding: 0px;
+  list-style:none;
+  width:270px;
+  height:350px;
+  margin:0px;
+  padding:0px;
 }
 
 .editorschild {
-  padding: auto;
-  list-style: none;
-  width: 105px;
-  height: 105px;
-  text-align: left;
-  text-decoration: none;
+  padding:auto;
+  list-style:none;
+  width:105px;
+  height:105px;
+  text-align:left;
+  text-decoration:none;
  
 }
 
 #editor {
-  float: right;
+  float:right;
 }
 
