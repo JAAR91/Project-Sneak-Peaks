@@ -15,7 +15,7 @@ The page was build using the information provided by the program like flow, floa
 
 ## Live Demo
 
-http://your-github-username.github.io/Project-Sneak-Peaks
+https://jaarkira.github.io/Project-Sneak-Peaks/
 
 
 ## Authors
