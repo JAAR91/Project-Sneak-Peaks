@@ -45,7 +45,6 @@
   background-color: rgb(110, 137, 168);
   color: white;
   font-weight: bold;
-  padding: 0;
   border: 0;
   border-radius: 3px;
   padding-left: 10px;
@@ -53,6 +52,7 @@
   width: auto;
   height: 30px;
   font-size: 10px;
+  align-self: center;
 }
 
 .buttons:hover {
@@ -88,7 +88,7 @@
 
 .pagelogo {
   height: 28px;
-  margin-top: 5px;
+  align-self: center;
 }
 
 .socialmediabuttons {
@@ -179,7 +179,11 @@
   color: black;
   font-size: 14px;
   font-weight: bold;
-  padding-top: 10px;
+  align-self: center;
+}
+
+.menucontainer {
+  align-self: center;
 }
 
 .menutext:hover {
