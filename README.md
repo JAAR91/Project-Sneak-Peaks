@@ -2,64 +2,41 @@
 
 # Project Sneak Peak
 
-> One paragraph statement about the project.
+> This project is a clone of a New York Times article.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./Images/ProjectSneakPick.png)
 
-Additional description about the project and its features.
+The page was build using the information provided by the program like flow, float, position and grid.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
+http://your-github-username.github.io/Project-Sneak-Peaks
 
 
 ## Authors
 
-👤 **Author1**
+👤 **JAAR**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
+- GitHub: [@jaarkira](https://github.com/jaarkira)
+- Twitter: [@jaar_91](https://twitter.com/jaar_91)
 - LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
 
 👤 **Author2**
 
 - GitHub: [@githubhandle](https://github.com/githubhandle)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- LinkedIn: [Jose Arriaga](https://www.linkedin.com/in/jose-arriaga-63a851204/)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [https://github.com/jaarkira/Project-Sneak-Peaks/issues](issues/).
 
 ## Show your support
 
@@ -70,7 +47,3 @@ Give a ⭐️ if you like this project!
 - Hat tip to anyone whose code was used
 - Inspiration
 - etc
-
-## 📝 License
-
-This project is [MIT](lic.url) licensed.
