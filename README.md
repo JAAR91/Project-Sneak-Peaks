@@ -23,7 +23,7 @@ https://jaarkira.github.io/Project-Sneak-Peaks/
 👤 **JAAR**
 
 - GitHub: [@jaarkira](https://github.com/jaarkira)
-- Twitter: [@jaar_91](https://twitter.com/jaar_91)
+- Twitter: [@jaar_91](https://twitter.com/91_jaar)
 - LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
 
 👤 **Author2**
