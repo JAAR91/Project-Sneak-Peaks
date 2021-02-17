@@ -197,7 +197,7 @@
   border: 1px solid red;
 }
 
-.editorschoise { 
+.editorschoise {
   display: flex;
   flex-flow: column wrap;
   justify-content: space-around;
@@ -268,7 +268,7 @@
 }
 
 .likeimagesize {
-  font-weight: 273px;
+  width: 273px;
   height: 181px;
 }
 
@@ -340,7 +340,7 @@
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   height: 25px;
   line-height: 15px;
-  margin: 0px;
+  margin: 0;
 }
 
 .columncontect {
@@ -411,7 +411,7 @@
 
 .colflex {
   display: flex;
-  flex-direction: row;  
+  flex-direction: row;
 }
 
 .footermenu {
