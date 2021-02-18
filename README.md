@@ -26,12 +26,6 @@ https://jaarkira.github.io/Project-Sneak-Peaks/
 - Twitter: [@jaar_91](https://twitter.com/91_jaar)
 - LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [Jose Arriaga](https://www.linkedin.com/in/jose-arriaga-63a851204/)
-
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
