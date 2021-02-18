@@ -540,7 +540,6 @@ body {
   border-radius: 3px;
   padding-left: 10px;
   padding-right: 10px;
-  font-size: 10px;
   width: 140px;
   height: 45px;
   font-size: 15px;
@@ -564,6 +563,7 @@ body {
   flex-flow: row;
   justify-content: left;
 }
+
 #rotatetext {
   font: bold 12px sans-serif;
   letter-spacing: 2px;
