@@ -20,6 +20,7 @@
 
 body {
   margin: 0;
+  overflow-x: hidden;
 }
 
 #menul {
@@ -491,7 +492,6 @@ body {
 .collapse {
   float: right;
   display: flex;
-  flex-flow: row;
   font-size: 18px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   background-color: rgba(231, 231, 231, 0.63);
@@ -501,19 +501,17 @@ body {
   padding: 0;
 }
 
-.collapse:hover {
+.collapse::selection {
   width: 530px;
 }
 
 .formflex {
-  padding: 10px;
   margin: 0;
+  padding: 0;
   display: flex;
   flex-flow: column;
   list-style: none;
   justify-content: stretch;
-  border: 2px;
-  border-color: rgb(151, 233, 229);
   width: 450px;
 }
 
@@ -562,6 +560,7 @@ body {
   display: flex;
   flex-flow: row;
   justify-content: left;
+  border: 1px solid red;
 }
 
 #rotatetext {
