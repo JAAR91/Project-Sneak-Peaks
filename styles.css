@@ -11,6 +11,7 @@
   border-bottom: 1px solid grey;
   position: fixed;
   top: 0;
+  left: 0;
 }
 
 #menu {
@@ -446,4 +447,39 @@
 
 .greyformat2:hover {
   text-decoration: underline;
+}
+
+.fixedfooter {
+  position: fixed;
+  bottom: 0;
+  background-color: rgb(80, 80, 80);
+  height: 55px;
+  width: 100%;
+  margin: 0;
+  left: 0;
+  padding: 0;
+  color: white;
+}
+
+.fixedfooter:hover {
+  cursor: pointer;
+}
+
+.ffootflex {
+  list-style: none;
+  display: flex;
+  flex-flow: row;
+  font-weight: bold;
+  font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
+  font-size: 14px;
+}
+
+#ffootchild1 {
+  position: relative;
+  left: 42%;
+}
+
+#ffootchild2 {
+  position: relative;
+  left: 65%;
 }
