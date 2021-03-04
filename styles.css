@@ -464,6 +464,7 @@ body {
   left: 0;
   padding: 0;
   color: white;
+  z-index: 25;
 }
 
 .fixedfooter:hover {
@@ -491,18 +492,34 @@ body {
 
 .collapse {
   float: right;
-  display: flex;
+  display: grid;
+  grid-template-columns: 50px auto;
+  grid-template-rows: auto;
   font-size: 18px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   background-color: rgba(231, 231, 231, 0.63);
   border: 4px solid rgb(115, 169, 223);
-  width: 50px;
   margin: 0;
   padding: 0;
 }
 
+.collapse:hover form{
+  display: block;
+  transition: all 3s 3s;
+}
+
 .collapse:hover {
-  width: 530px;
+  border: 4px solid rgb(91, 130, 148);
+  box-shadow: 0 0 20px rgb(150, 150, 150);
+  transition: all 3s;
+}
+
+.collapse:hover #rotatetext {
+  height: 100%;
+  background-color: rgb(91, 130, 148);
+  color: rgb(247, 187, 57);
+  border-right:3px solid rgb(201, 134, 109);
+  transition: all 1s;
 }
 
 .formflex {
@@ -554,23 +571,34 @@ body {
   justify-content: space-evenly;
 }
 
-#mainform {
+.mainform {
   margin: 0;
   padding: 0;
-  display: flex;
-  flex-flow: row;
-  justify-content: left;
-  border: 1px solid red;
+  display: none;
+  z-index: 10;
 }
 
 #rotatetext {
   font: bold 12px sans-serif;
-  letter-spacing: 2px;
   text-transform: uppercase;
+  font-size: 25px;
   background: rgb(115, 169, 223);
   color: #fff;
   margin: 0;
+  padding: 0;
   width: 50px;
+  height: 310px;
+  position: relative;
+  z-index: 2;
+}
+
+.rtext {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 316px;
+  width: 341px;
+  transform: rotate(-90deg);
 }
 
 #imagereview {
